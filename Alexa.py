@@ -81,6 +81,9 @@ if __name__ == "__main__":
             pywhatkit.playonyt(query)
         elif "jokes" in query:
             speak(pyjokes.get_joke())
+        elif "finally sleep" in query:
+            speak("Ok sir, I am shutting down")
+            exit()
         elif "bored" in query:
             speak("How can I cheer you up ")
             speak("shall I play some music on youtube or movies or you wanna hear some jokes")
